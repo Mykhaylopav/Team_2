@@ -4,4 +4,118 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-/*# sourceMappingURL=main.css.map */
+
+/********************** Header start *****************************/
+.header__cookies {
+  height: 72px;
+  background: #194277;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  font-size: 14px;
+}
+
+.header__cookies * {
+  margin: 0 12px;
+}
+
+a.header__btn {
+  display: inline-block;
+  padding: 14px 50px;
+  background: #fff;
+  border-radius: 23px;
+  text-decoration: none;
+  color: #3695ff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+a.header__btn.header__btn_small {
+  padding: 8px 37px;
+  color: #194277;
+  font-size: 0.6rem;
+  border-radius: 12px;
+}
+
+a.header__btn:hover {
+  color: #367ffe;
+  background-color: #f1f8ff;
+}
+
+header.header {
+  background-color: #3695ff;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+}
+
+.header .header__logo {
+  background-color: #fff;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 5em;
+  -webkit-box-shadow: 0 0 5px 5px #589bfe, 0 0 15px 5px #428cfe;
+          box-shadow: 0 0 5px 5px #589bfe, 0 0 15px 5px #428cfe;
+}
+
+.header .header__title {
+  text-transform: uppercase;
+  font-size: 2em;
+  line-height: 1.3em;
+  width: 100%;
+  max-width: 600px;
+  padding: 0 10px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 2.2em 0 1.2em 0;
+}
+
+.header .header__slogan {
+  font-size: 0.75em;
+  line-height: 1.4em;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 2.2em;
+}
+
+.header .header__btn {
+  display: block;
+  margin-bottom: 2.5em;
+}
+
+.header .header__arrow {
+  color: #fff;
+  font-size: 2.5em;
+  margin-bottom: 1.2em;
+}
+
+@media screen and (max-width: 600px) {
+  header.header {
+    font-size: 12px;
+  }
+}
+/********************** Header end *****************************/
