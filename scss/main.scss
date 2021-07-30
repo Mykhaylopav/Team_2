@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
 /********************** Header start *****************************/
 
@@ -108,3 +108,117 @@ header.header {
 
 
 /********************** Header end *****************************/
+
+.main {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    .expert-in {
+        background-color: #f1f8ff;
+        width: 100%;
+        height: 1145px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #3677fd;
+        
+        &__container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 940px;
+            max-width: 1140px;
+            width: 100%;
+            .container__title {
+                text-align: center;
+                font-size: 50px;
+                font-weight:300;
+            }
+            .container__box {
+                display: flex;
+                flex-direction: column;
+                height: 780px;
+                justify-content: space-between;
+                .p-box {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-basis: 44%;
+                }
+                .content-1 {
+                    img {
+                        width: 45px;
+                        height: 65px;
+                    }
+                }
+                .content-2 {
+                    img {
+                        width: 70px;
+                        height: 60px;
+                    }
+                }
+                .content-3 {
+                    img {
+                        width: 60px;
+                        height: 65px;
+                    }
+                }
+                .content-4 {
+                    img {
+                        width: 70px;
+                        height: 65px;
+                    }
+                }
+                .content-5 {
+                    img {
+                        width: 65px;
+                        height: 65px;
+                    }
+                }
+                .content-6 {
+                    img {
+                        width: 75px;
+                        height: 65px;
+                    }
+                }
+                .p-box__content {
+                    max-width: 350px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    font-size: 16px;
+                    .img-container {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 120px;
+                        height: 120px;
+                        border: 1px solid #6c6f72;
+                        border-radius: 50%;
+                    }
+                    .content__title {
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        padding: 60px 0 35px;
+                    }
+                    .content__text {
+                        color: #5a5a5a;
+                        line-height: 2;
+                    }
+                }
+                .box__lower-box {
+                    .content-6 {
+                        .img-container {
+                            position: relative;
+                            img {
+                                position: absolute;
+                                left: 25px;
+                                top: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
